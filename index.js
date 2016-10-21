@@ -2,11 +2,12 @@ module.exports = function(sails) {
     
     var connect = require('./lib/connect.js');
 
-    gladys.on('ready', function(){
+    gladys.on('ready', function() {
         connect();
     });
     
     return {
-        connect: connect
+        connect: connect,
+		exec: exec
     };
 };
