@@ -8,7 +8,7 @@ module.exports = function(sails) {
     });
     
     return {
-        connect: connect,
-		exec: exec
+        connect : connect,
+		exec : exec
     };
 };
